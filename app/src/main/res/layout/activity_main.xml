@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.touna.demo.MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:orientation="vertical"></LinearLayout>
+   <View
+       android:layout_width="match_parent"
+       android:layout_height="1dp"
+       android:background="@color/gray_line"></View>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="49dp"
+       android:layout_gravity="bottom"
+       android:gravity="center_vertical">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:orientation="vertical"
+          >
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:text="主页"
+             android:gravity="center"/>
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="我的"
+                android:gravity="center"/>
+
+      </LinearLayout>
+
+   </LinearLayout>
+  
+
+</LinearLayout>
